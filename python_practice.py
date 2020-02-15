@@ -7,7 +7,7 @@ if counties[1] == 'Denver':
 score = int(input("What is your test score? "))
 
 # Determine the grade.
-if score >= 90:
+#if score >= 90:
     print('Your grade is an A.')
 elif score >= 80:
     print('Your grade is a B.')
@@ -18,6 +18,6 @@ elif score >= 60:
 else:
     print('Your grade is an F.')
     
-    counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
-    for county in counties_dict:
-        print(county)
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+for county in counties_dict:
+    print(county)
